@@ -26,7 +26,7 @@ Install this programs which you can easily find and download from google.
 
 - When you install PostgresSQL Server 13.5, it comes with pgAdmin; a graphical tool for managing and developing your databases. So open pgAdmin 4 and create a database
 - Go to STS or Eclipse and open `application.properties` file
-- Change the configurations of the postgreSQL and your own database configurations in this section:
+- Change the configurations of the postgreSQL and put your own database configurations in this section:
 
 ```bash
 ## PostgreSQL

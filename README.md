@@ -47,6 +47,8 @@ spring.datasource.password=123
 You can test the API on postman or in other program you prefer.
 I didn't implement any authorization for the endpoints, but I put all the dependencies for OAuth2 authorization flow. You can check in the end of this readme how to implement this authorization.
 
+This API is also running in heroku. If you are not running the project locally, you can change the prefix `localhost:8080/` to `https://refera-server.herokuapp.com/`
+
 - This is the endpoint to create order: POST `localhost:8080/api/order`. Example of the body request:
 ```
 {

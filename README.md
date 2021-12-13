@@ -3,7 +3,7 @@
 
 This is an API to manage maintanence orders from Refera.
 
-# Requiriments
+## Requiriments
 
 - PostgreSQL Server 13.5
 `https://www.enterprisedb.com/downloads/postgres-postgresql-downloads`
@@ -12,7 +12,7 @@ This is an API to manage maintanence orders from Refera.
 
 Install this programs which you can easily find and download from google.
 
-# Import the project
+## Import the project
 
 - Clone this repository:
 ```bash
@@ -22,7 +22,7 @@ Install this programs which you can easily find and download from google.
 - Click next and then browse the repository which you have cloned
 - Mark the checkbox pom.xml and click finish
 
-# How to configure
+## How to configure
 
 - When you install PostgresSQL Server 13.5, it comes with pgAdmin; a graphical tool for managing and developing your databases. So open pgAdmin 4 and create a database
 - Go to STS or Eclipse and open `application.properties` file

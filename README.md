@@ -50,7 +50,7 @@ This API is also running in heroku. If you are not running the project locally, 
 #### Create order
 
 ```http
-  POST /api/order
+  POST localhost:8080/api/order
 ```
 Example of the body request:
 ```

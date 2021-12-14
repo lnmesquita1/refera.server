@@ -1,7 +1,7 @@
 
 # Refera Server
 
-This is an API to manage maintanence orders from Refera.
+This is an API to manage maintanence orders from Refera. It is also running [here](https://refera-server.herokuapp.com/)
 
 ## Requiriments
 

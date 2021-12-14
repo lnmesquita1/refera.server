@@ -35,8 +35,6 @@ spring.datasource.username=postgres
 spring.datasource.password=123
 ```
 
-
-
 ## Run Locally
 
 - Right click on the project > Run As > Spring Boot App
@@ -49,7 +47,12 @@ I didn't implement any authorization for the endpoints, but I put all the depend
 
 This API is also running in heroku. If you are not running the project locally, for these examples below, you can change the prefix `localhost:8080/` to `https://refera-server.herokuapp.com/`
 
-- This is the endpoint to create order: POST `localhost:8080/api/order`. Example of the body request:
+#### Create order
+
+```http
+  POST localhost:8080//api/order
+```
+Example of the body request:
 ```
 {
     "name": "Cleiton",
@@ -64,15 +67,29 @@ This API is also running in heroku. If you are not running the project locally, 
     "deadline": "2021-12-10T08:00:00"
 }
 ```
-- This is the endpoint to list all orders: GET `localhost:8080/api/order/all`
 
-- This is the endpoint to create category: POST `localhost:8080/api/category`. Example of the body request:
+#### Get all orders
+
+```http
+  GET localhost:8080/api/order/all
+```
+
+#### Create category
+
+```http
+  POST localhost:8080/api/category
+```
+Example of the body request:
 ```
 {
     "name": "Category name"
 }
 ```
-- This is the endpoint to list all categories: GET `localhost:8080/api/category/all`
+#### Get all categories
+
+```http
+  GET localhost:8080/api/category/all
+```
 
 ## OAuth2 Authorization
 

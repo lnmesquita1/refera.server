@@ -91,6 +91,12 @@ Example of the body request:
   GET localhost:8080/api/category/all
 ```
 
+## What we could improve
+- Create table for Real Estate Agency, Company and Contact with auto increment primary key.
+- Remove name and celPhone from order table
+- Create foreign keys for Real Estate, Agency and Contact inside order table. The same way that is implemented for Category table.
+- Change how the back end deliver orders data: We could implement a lazy loading paginator, so if we have thousands of rows, it won't take too much time to load the data, because we can limit 10 rows for page for example, and each time that the user change page, it will call the back-end and return only necessary rows. 
+
 ## OAuth2 Authorization
 
 This could be a simple implementation of OAuth2 authorization. As I said above, I already set all the dependencies on file pom.xml to work with OAuth2.
@@ -168,4 +174,3 @@ You have to send the request as POST, and it will return the result with the acc
 This access token you have to put in the header of all protected endpoints like this:
 
 `Authorization` : `Bearer fe2e45e6-119f-469a-963a-a75a28fd93be`
-
